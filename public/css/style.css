@@ -1,0 +1,32 @@
+
+
+h1{
+    color: blue;
+}
+h2{
+    color: red;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.not{
+    text-decoration: underline;
+}
+
+.button{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    min-width: 130px;
+    padding: 15px 50px;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    overflow: hidden;
+    z-index: 2;
+}
